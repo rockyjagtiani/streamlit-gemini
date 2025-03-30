@@ -1,3 +1,4 @@
+## Get AI response - version 1 -  without system instruction
 import streamlit as st
 import google.generativeai as genai
 import os
@@ -121,7 +122,7 @@ if prompt:
     st.session_state.messages.append({"role": "user", "content": prompt})
     st.markdown(f"<div class='user-container'><div class='user-bubble'>{prompt}</div></div>", unsafe_allow_html=True)
 
-    # Get AI response
+    # Get AI response - version 1 without system instruction
     response = st.session_state.chat_session.send_message(prompt)
     ai_reply = response.text
 

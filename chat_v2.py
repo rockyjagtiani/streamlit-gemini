@@ -1,3 +1,4 @@
+## Get AI response - version 2 -  with system instruction
 import streamlit as st
 import google.generativeai as genai
 import os
@@ -87,7 +88,7 @@ with st.sidebar:
     st.write("4. The conversation history is saved.")
 
 # Title
-st.markdown("<h1 style='text-align: center;'>💬 Gemini AI Chatbot</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center;'>💬 Gemini AI Chatbot with mild Guardrails</h1>", unsafe_allow_html=True)
 
 # Initialize chat session
 if "chat_session" not in st.session_state:
