@@ -1,7 +1,7 @@
 # Gemini AI Chatbot
 
 A Streamlit-based chatbot powered by Google's Gemini API that answers only specific domain queries. 
-The chatbot maintains a conversation history and restricts responses to given topics..
+The chatbot maintains a conversation history and restricts responses to given topics...
 
 
 Installation
